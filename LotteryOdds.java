@@ -18,7 +18,6 @@ public class LotteryOdds
             lotteryOdds = lotteryOdds * (n - i + 1) / i;
             
         }
-        double f = lotteryOdds;
-        System.out.println("Your winning odds are 1 in " + lotteryOdds + ". That is " + 1/f + ". Good luck!");
+        System.out.println("Your winning odds are 1 in " + lotteryOdds + ". That is " + 1/(double) lotteryOdds + ". Good luck!");
     }
 }
